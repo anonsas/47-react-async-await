@@ -11,7 +11,7 @@ function Users() {
 
   return (
     <div>
-      <h2>Users 2</h2>
+      <h2>Users 3</h2>
       <div className="users-container">
         {users.map((user: UserTypes) => (
           <User

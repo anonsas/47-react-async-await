@@ -1,13 +1,13 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { fetchUsers } from '../../utils/fetchUsers.utils';
-import { UsersTypes } from './Users.types';
+import { UserTypes } from '../../components/User/User.types';
 import { User } from '../../components';
 
 function Users() {
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(true);
-  const [users, setUsers] = useState<UsersTypes>([]);
+  const [users, setUsers] = useState<UserTypes[]>([]);
 
   const fetchData = useCallback(async () => {
     try {
