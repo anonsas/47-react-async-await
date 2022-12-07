@@ -1,10 +1,16 @@
 1. Straight Destructuring?
    From Parent To Child or pass Object and destructure in Child.
+   If its less, than <10 properties, it is good to destrcture.
+   Otherwise pass an object.
 
 2. isLoading state?
-   Should be in the FetchFunction alone,
-   or passed to Element where it is used?
+   Passed to Element where it is used?
 
 3. /Utils, Custom /hooks or HOC?
+   Custom /hooks.
 
-SSH Connection
+---
+
+HashRouter - every time sends requests.
+
+---

@@ -1,11 +1,12 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.scss';
-import { Users, Users2, Users3, Users4, Users5, Error } from './pages';
+import { Home, Users, Users2, Users3, Users4, Users5, Error } from './pages';
 
 function App() {
   return (
     <>
       <Routes>
+        <Route path="" element={<Home />} />
         <Route path="users" element={<Users />} />
         <Route path="users2" element={<Users2 />} />
         <Route path="users3" element={<Users3 />} />
